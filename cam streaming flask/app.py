@@ -1,11 +1,13 @@
 from flask import Flask, render_template, Response
 import cv2
+#from picamera import PiCamera
 
 app = Flask(__name__)
-
 camera = cv2.VideoCapture(0)  # use 0 for web camera
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
 
+#camerapi = PiCamera()
+#camerapi.resolution = (1920, 1080)
 def gen_frames():  # generate frame by frame from camera
     while True:
         # Capture frame-by-frame
@@ -33,4 +35,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='192.168.0.106')

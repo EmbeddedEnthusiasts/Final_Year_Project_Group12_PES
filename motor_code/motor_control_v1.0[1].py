@@ -3,7 +3,7 @@ import socket
 
 #socket setup
 s=socket.socket()
-ip="192.168.0.178"
+ip="192.168.0.100"
 port=9999
 s.connect((ip,port))
 
@@ -23,14 +23,14 @@ right=gpio.PWM(32,50)
 left.start(60)
 right.start(60)
 
-gpio.output(16,0)
-gpio.output(18,0)
-gpio.output(13,0)
-gpio.output(15,0)
+#gpio.output(16,0)
+#gpio.output(18,0)
+#gpio.output(13,0)
+#gpio.output(15,0)
 
 while True:
 	d=str(s.recv(1024),"utf-8")
-	print(data)
+	print(d)
 	if d=='w':
 		gpio.output(16,1)
 		gpio.output(18,0)
