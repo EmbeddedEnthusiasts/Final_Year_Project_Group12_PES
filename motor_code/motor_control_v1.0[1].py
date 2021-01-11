@@ -64,8 +64,10 @@ while True:
 	elif d=='e':
 		break
 	else:
-		continue
-
+		gpio.output(16,0)
+		gpio.output(18,0)
+		gpio.output(13,0)
+		gpio.output(15,0)
 
 gpio.cleanup()
 s.close()
