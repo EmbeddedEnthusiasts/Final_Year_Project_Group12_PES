@@ -26,7 +26,7 @@
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{rpi.jpg}
-\caption{Raspberry Pi 4}
+\caption{Raspberry Pi 4} \vspace{1cm}
 \includegraphics[scale=0.5]{rpipin.png}
 \caption{Raspberry Pi Pin-out}
 \end{figure}
@@ -34,16 +34,25 @@
 The Raspberry Pi Camera Modules are official products from the Raspberry Pi \\Foundation. The original 5-megapixel model was released in 2013, and an 8-megapixel Camera Module v2 was released in 2016. For both iterations, there are visible light and infrared versions. A 12-megapixel High Quality Camera was released in 2020.
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.5]{rpicam.jpg}
+\includegraphics[scale=0.32]{rpicam.jpg}
 \caption{Raspberry Pi Camera v2.1}
 \end{figure}
-\subsection{Motors and its Drivers}
-L298N Motor Driver Module is a high power motor driver module for driving DC and Stepper Motors. This module consists of an L298 motor driver IC and a 78M05 5V regulator. L298N Module can control up to 4 DC motors, or 2 DC motors with directional and speed control.
-\begin{figure}[h]
+\subsection{BO DC Motor}
+BO (Battery Operated) light weight DC geared motor which gives good torque and rpm at lower voltages. This motor can run at approximately 200 rpm when driven by a single Li-Ion cell. Great for battery operated light weight robots. It can do reverse and forward directions.
+\subsubsection*{BO Motor Specifications:}
+\begin{enumerate}
+\item Working Voltage 3-12V
+\item No Load Speed: 200 rpm /- 10rpm
+\item No Load Current: 125mA (max.170mA)
+\item Torque: 500gf.cm min 40gm weight
+\end{enumerate}
+\begin{figure}[h!]
 \centering
-\includegraphics[scale=0.4]{L298N.jpg}
-\caption{L298N Motor Driver}
+\includegraphics[scale=0.11]{bomotor.jpg}
+\caption{BO DC Motor}
 \end{figure}
+\subsection{L298N Motor Driver}
+L298N Motor Driver Module is a high power motor driver module for driving DC and Stepper Motors. This module consists of an L298 motor driver IC and a 78M05 5V regulator. L298N Module can control up to 4 DC motors, or 2 DC motors with directional and speed control.
 \subsubsection*{L298N Module Features \& Specifications:}
 \begin{enumerate}
 \item Driver Model: L298N 2A 
@@ -57,7 +66,11 @@ L298N Motor Driver Module is a high power motor driver module for driving DC and
 \item Maximum Power (W): 25W 
 \item Heatsink for better performance 
 \end{enumerate}
-
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{L298N.jpg}
+\caption{L298N Motor Driver}
+\end{figure}
 \subsection{LiPo Battery}
 A lithium polymer battery, or more correctly lithium-ion polymer battery, is a rechargeable battery of lithium-ion technology using a polymer electrolyte instead of a liquid electrolyte. High conductivity semisolid (gel) polymers form this \\electrolyte. These batteries provide higher specific energy than other lithium battery types and are used in applications where weight is a critical feature, such as mobile devices, radio-controlled aircraft and some electric vehicles 
 \begin{figure}[h]

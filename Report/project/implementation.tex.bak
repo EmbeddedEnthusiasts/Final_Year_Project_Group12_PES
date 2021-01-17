@@ -7,13 +7,18 @@ For the script we are using open-cv modules for support streaming and control of
 
 \subsection{Hardware Implementation}
 Raspberry Pi camera is used directly with the camera port on the Raspberry Pi.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{robo1.jpg}
+\caption{Live feed capture using Raspberry Pi Camera}
+\end{figure}
 \section{Implementation of Robot Movement}
 \subsection{Software Implementation}
 
 First the keystrokes are recorded using keyboard module in the form of a character, the recorded characters are then sent from server to client using TCP/IP sockets.\\
 \newline
 Upon receiving the character on the receiver side the appropriate action is \\*implemented using an if-else ladder which is reflected by the motion of the robot.
-\newpage
+
 \subsection{Hardware Implementation}
 Raspberry Pi GPIO used in Board mode and is connected to the motor driver in the format given below:
 \begin{enumerate}[ ]
@@ -26,6 +31,6 @@ Raspberry Pi GPIO used in Board mode and is connected to the motor driver in the
 \end{enumerate}
 \begin{figure}[h]
 \centering
+\includegraphics[scale=0.6]{ckt.png}
 \caption{Circuit Connections}
-\includegraphics[scale=0.8]{ckt.png}
 \end{figure}

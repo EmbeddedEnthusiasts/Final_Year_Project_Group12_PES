@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.10.27)  17 JAN 2021 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.10.27)  17 JAN 2021 12:47
 entering extended mode
 **./Group12_Report.tex
 (Group12_Report.tex
@@ -724,8 +724,65 @@ Package: pgfpages 2011/01/05 ver 0.02
 \pgfpages@shipoutbox=\box72
 )
 \pgfpages@box@1=\box73
+ (Group12_Report.aux
 
-No file Group12_Report.aux.
+LaTeX Warning: Label `fig:vtulogo' multiply defined.
+
+
+LaTeX Warning: Label `fig:pesitbsclogo' multiply defined.
+
+
+LaTeX Warning: Label `random' multiply defined.
+
+
+LaTeX Warning: Label `random' multiply defined.
+
+
+LaTeX Warning: Label `random' multiply defined.
+
+
+LaTeX Warning: Label `random' multiply defined.
+
+
+LaTeX Warning: Label `random' multiply defined.
+
+
+LaTeX Warning: Label `random' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+
+LaTeX Warning: Label `YouTube' multiply defined.
+
+)
 \openout1 = `Group12_Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -733,7 +790,7 @@ LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 105.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
  105.
-(D:\MIKTEX\tex/latex/psnfss\omspzccm.fd
+ (D:\MIKTEX\tex/latex/psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 105.
@@ -821,11 +878,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 105.
 LaTeX Info: Redefining \pageref on input line 105.
 LaTeX Info: Redefining \nameref on input line 105.
+ (Group12_Report.out) (Group12_Report.out)
 \@outlinefile=\write4
 \openout4 = `Group12_Report.out'.
 
-
-(D:\MIKTEX\tex/latex/pdflscape\pdflscape.sty
+ (D:\MIKTEX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
 (D:\MIKTEX\tex/latex/graphics\lscape.sty
@@ -870,7 +927,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
  (project/cover.tex
-<project/images/vtu_new_logo.jpg, id=6, 94.85437pt x 105.39375pt>
+<project/images/vtu_new_logo.jpg, id=178, 94.85437pt x 105.39375pt>
 File: project/images/vtu_new_logo.jpg Graphic file (type jpg)
 <use project/images/vtu_new_logo.jpg>
 Package pdftex.def Info: project/images/vtu_new_logo.jpg  used on input line 7.
@@ -880,7 +937,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-<project/images/pesitbsc_logo.jpg, id=7, 116.68594pt x 95.6072pt>
+<project/images/pesitbsc_logo.jpg, id=179, 116.68594pt x 95.6072pt>
 File: project/images/pesitbsc_logo.jpg Graphic file (type jpg)
 <use project/images/pesitbsc_logo.jpg>
 Package pdftex.def Info: project/images/pesitbsc_logo.jpg  used on input line 2
@@ -957,24 +1014,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--127
 
  []
 
-[5]
+[5] (Group12_Report.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+ [1])
 \tf@toc=\write5
 \openout5 = `Group12_Report.toc'.
 
+ [2
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[1]
+] (Group12_Report.lof)
 \tf@lof=\write6
 \openout6 = `Group12_Report.lof'.
 
- [2
-
-] (project/introduction.tex
+ [3]
+(project/introduction.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -990,6 +1048,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1040,7 +1104,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
@@ -1048,14 +1112,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 
+l.21 
       [3]
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
@@ -1063,7 +1127,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38  \item T
+l.37  \item T
              he Raspberry pi has 40 GPIO headers out of which 4 are availabl...
 [4
 
@@ -1071,7 +1135,7 @@ l.38  \item T
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \newpage
+l.48 \newpage
               [5]) (project/srs.tex
 Chapter 3.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
@@ -1079,27 +1143,21 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (D:\MIKTEX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [6]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-<project/images/rpi.jpg, id=89, 602.25pt x 401.5pt>
+<project/images/rpi.jpg, id=334, 602.25pt x 401.5pt>
 File: project/images/rpi.jpg Graphic file (type jpg)
 <use project/images/rpi.jpg>
 Package pdftex.def Info: project/images/rpi.jpg  used on input line 28.
 (pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
-<project/images/rpipin.png, id=90, 331.2375pt x 426.09187pt>
+<project/images/rpipin.png, id=335, 331.2375pt x 426.09187pt>
 File: project/images/rpipin.png Graphic file (type png)
 <use project/images/rpipin.png>
 Package pdftex.def Info: project/images/rpipin.png  used on input line 30.
 (pdftex.def)             Requested size: 165.61833pt x 213.04541pt.
-<project/images/rpicam.jpg, id=91, 602.25pt x 401.5pt>
+<project/images/rpicam.jpg, id=336, 602.25pt x 401.5pt>
 File: project/images/rpicam.jpg Graphic file (type jpg)
 <use project/images/rpicam.jpg>
 Package pdftex.def Info: project/images/rpicam.jpg  used on input line 37.
-(pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
+(pdftex.def)             Requested size: 192.72392pt x 128.48262pt.
 
 Overfull \hbox (12.3866pt too wide) in paragraph at lines 34--40
 \OT1/ptm/m/n/14.4 Foundation. The orig-i-nal 5-megapixel model was re-leased in
@@ -1109,102 +1167,143 @@ Overfull \hbox (12.3866pt too wide) in paragraph at lines 34--40
 [7
 
 ]
-<project/images/L298N.jpg, id=113, 752.8125pt x 501.875pt>
+<project/images/bomotor.jpg, id=354, 1003.75pt x 1003.75pt>
+File: project/images/bomotor.jpg Graphic file (type jpg)
+<use project/images/bomotor.jpg>
+Package pdftex.def Info: project/images/bomotor.jpg  used on input line 51.
+(pdftex.def)             Requested size: 110.41284pt x 110.41284pt.
+ [8 <./project/images/rpi.jpg> <./project/images/rpipin.png>]
+<project/images/L298N.jpg, id=366, 752.8125pt x 501.875pt>
 File: project/images/L298N.jpg Graphic file (type jpg)
 <use project/images/L298N.jpg>
-Package pdftex.def Info: project/images/L298N.jpg  used on input line 44.
+Package pdftex.def Info: project/images/L298N.jpg  used on input line 71.
 (pdftex.def)             Requested size: 301.11966pt x 200.74643pt.
- [8 <./project/images/rpi.jpg> <./project/images/rpipin.png>]
-<project/images/lipo.png, id=126, 803.0pt x 803.0pt>
+<project/images/lipo.png, id=367, 803.0pt x 803.0pt>
 File: project/images/lipo.png Graphic file (type png)
 <use project/images/lipo.png>
-Package pdftex.def Info: project/images/lipo.png  used on input line 65.
+Package pdftex.def Info: project/images/lipo.png  used on input line 78.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
 
-Overfull \hbox (12.28328pt too wide) in paragraph at lines 62--68
+Overfull \hbox (12.28328pt too wide) in paragraph at lines 75--81
 \OT1/ptm/m/n/14.4 A lithium poly-mer bat-tery, or more cor-rectly lithium-ion p
 oly-mer bat-tery, is a recharge-
  []
 
-[9 <./project/images/rpicam.jpg> <./project/images/L298N.jpg>]
-<project/images/router.jpg, id=135, 813.0375pt x 468.75125pt>
+[9 <./project/images/rpicam.jpg> <./project/images/bomotor.jpg>]
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \space  on input line 82.
+
+<project/images/router.jpg, id=377, 813.0375pt x 468.75125pt>
 File: project/images/router.jpg Graphic file (type jpg)
 <use project/images/router.jpg>
-Package pdftex.def Info: project/images/router.jpg  used on input line 78.
+Package pdftex.def Info: project/images/router.jpg  used on input line 91.
 (pdftex.def)             Requested size: 243.91313pt x 140.62645pt.
- [10 <./project/images/lipo.png (PNG copy)>]
-<project/images/raspbian.png, id=153, 414.04688pt x 344.78813pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \space  on input line 96.
+
+[10 <./project/images/L298N.jpg>]
+<project/images/raspbian.png, id=393, 414.04688pt x 344.78813pt>
 File: project/images/raspbian.png Graphic file (type png)
 <use project/images/raspbian.png>
-Package pdftex.def Info: project/images/raspbian.png  used on input line 90.
+Package pdftex.def Info: project/images/raspbian.png  used on input line 103.
 (pdftex.def)             Requested size: 124.21501pt x 103.43723pt.
+ [11 <./project/images/lipo.png (PNG copy)>]
 
-Overfull \hbox (7.47322pt too wide) in paragraph at lines 95--96
-\OT1/ptm/m/n/14.4 notable use of sig-nif-i-cant whites-pace. Its lan-guage con-
-structs and object-oriented
- []
+LaTeX Warning: The counter will not be printed.
+             The label is: \space  on input line 108.
 
-<project/images/python.png, id=155, 359.84438pt x 319.94531pt>
+<project/images/python.png, id=403, 359.84438pt x 319.94531pt>
 File: project/images/python.png Graphic file (type png)
 <use project/images/python.png>
-Package pdftex.def Info: project/images/python.png  used on input line 100.
+Package pdftex.def Info: project/images/python.png  used on input line 114.
 (pdftex.def)             Requested size: 107.95413pt x 95.98433pt.
-[11 <./project/images/router.jpg>]
-<project/images/flask.png, id=170, 412.54124pt x 309.40594pt>
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \space  on input line 119.
+
+<project/images/flask.png, id=404, 412.54124pt x 309.40594pt>
 File: project/images/flask.png Graphic file (type png)
 <use project/images/flask.png>
-Package pdftex.def Info: project/images/flask.png  used on input line 108.
+Package pdftex.def Info: project/images/flask.png  used on input line 125.
 (pdftex.def)             Requested size: 123.76332pt x 92.8225pt.
-) (project/system-design.tex [12 <./project/images/raspbian.png> <./project/ima
-ges/python.png>]
+) (project/system-design.tex [12 <./project/images/router.jpg> <./project/image
+s/raspbian.png>]
 Chapter 4.
-<project/images/bdweb.jpg, id=183, 866.23625pt x 494.84875pt>
+<project/images/bdweb.jpg, id=414, 866.23625pt x 494.84875pt>
 File: project/images/bdweb.jpg Graphic file (type jpg)
 <use project/images/bdweb.jpg>
 Package pdftex.def Info: project/images/bdweb.jpg  used on input line 9.
 (pdftex.def)             Requested size: 346.48836pt x 197.93599pt.
-[13 <./project/images/flask.png>]
-<project/images/bdrobot.png, id=192, 507.39563pt x 343.2825pt>
+[13 <./project/images/python.png> <./project/images/flask.png>]
+<project/images/bdrobot.png, id=425, 507.39563pt x 343.2825pt>
 File: project/images/bdrobot.png Graphic file (type png)
 <use project/images/bdrobot.png>
-Package pdftex.def Info: project/images/bdrobot.png  used on input line 50.
-(pdftex.def)             Requested size: 405.91705pt x 274.62636pt.
- [14
+Package pdftex.def Info: project/images/bdrobot.png  used on input line 51.
+(pdftex.def)             Requested size: 507.3944pt x 343.28165pt.
 
- <./project/images/bdweb.jpg>] [15]
-[16 <./project/images/bdrobot.png>]
-<project/images/gix.png, id=225, 361.35pt x 343.2825pt>
+Overfull \hbox (25.51894pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+[14
+
+ <./project/images/bdweb.jpg>] [15] [16 <./project/images/bdrobot.png>]
+<project/images/gix.png, id=451, 361.35pt x 343.2825pt>
 File: project/images/gix.png Graphic file (type png)
 <use project/images/gix.png>
-Package pdftex.def Info: project/images/gix.png  used on input line 87.
+Package pdftex.def Info: project/images/gix.png  used on input line 88.
 (pdftex.def)             Requested size: 289.0804pt x 274.62636pt.
-) (project/implementation.tex [17]
+)
+(project/implementation.tex [17]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
  []
 
+<project/images/robo1.jpg, id=469, 326.6604pt x 326.6604pt>
+File: project/images/robo1.jpg Graphic file (type jpg)
+<use project/images/robo1.jpg>
+Package pdftex.def Info: project/images/robo1.jpg  used on input line 12.
+(pdftex.def)             Requested size: 261.32866pt x 261.32866pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
 [18 <./project/images/gix.png>]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: \space  on input line 19.
+             The label is: \space  on input line 24.
 
-<project/images/ckt.png, id=257, 591.85326pt x 368.19662pt>
+<project/images/ckt.png, id=483, 591.85326pt x 368.19662pt>
 File: project/images/ckt.png Graphic file (type png)
 <use project/images/ckt.png>
-Package pdftex.def Info: project/images/ckt.png  used on input line 29.
-(pdftex.def)             Requested size: 473.48325pt x 294.55768pt.
+Package pdftex.def Info: project/images/ckt.png  used on input line 34.
+(pdftex.def)             Requested size: 355.11469pt x 220.91966pt.
 ) (project/results.tex [19
 
-]
+ <./project/images/robo1.jpg>]
 Chapter 6.
-) (project/conclusion.tex [20 <./project/images/ckt.png>]
+<project/images/led.png, id=488, 453.19313pt x 305.64188pt>
+File: project/images/led.png Graphic file (type png)
+<use project/images/led.png>
+Package pdftex.def Info: project/images/led.png  used on input line 6.
+(pdftex.def)             Requested size: 362.555pt x 244.51381pt.
+[20 <./project/images/ckt.png>]
+<project/images/webpage.png, id=500, 524.71031pt x 326.72063pt>
+File: project/images/webpage.png Graphic file (type png)
+<use project/images/webpage.png>
+Package pdftex.def Info: project/images/webpage.png  used on input line 14.
+(pdftex.def)             Requested size: 419.7688pt x 261.37685pt.
+) (project/conclusion.tex [21
+
+ <./project/images/led.png>]
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--9
@@ -1216,17 +1315,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
-[21
+[22 <./project/images/webpage.png>]) (project/ref.tex [23
 
-]) (project/ref.tex [22
-
-] [23]
+] [24]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 []$\OT1/pcr/m/n/14.4 https : / / learn . sparkfun . com / tutorials / raspberry
 -[]gpio /
  []
 
-) (project/review-process.tex [24
+) (project/review-process.tex [25
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.random})
  has been already used, duplicate ignored
@@ -1277,7 +1374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[25pdfTeX warning (ext4): destination with the same identifier (name{cite.YouTu
+[26pdfTeX warning (ext4): destination with the same identifier (name{cite.YouTu
 be}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
@@ -1337,29 +1434,33 @@ cite.YouTube}) has been already used, duplicate ignored
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.29 \newpage
-             ]) (project/planning.tex [26
+             ]) (project/planning.tex [27
 
 ]
 Appendix B.
-) [27] [28
+<project/images/gchart.png, id=587, 829.9639pt x 266.25789pt>
+File: project/images/gchart.png Graphic file (type png)
+<use project/images/gchart.png>
+Package pdftex.def Info: project/images/gchart.png  used on input line 5.
+(pdftex.def)             Requested size: 497.98218pt x 159.75595pt.
 
-]
+Overfull \hbox (16.10672pt too wide) in paragraph at lines 5--6
+[][] 
+ []
+
+) [28] [29
+
+ <./project/images/gchart.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (Group12_Report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package rerunfilecheck Info: File `Group12_Report.out' has not changed.
+(rerunfilecheck)             Checksum: 96AE4EEDA54C86C3659A2834FC0C04A4;2789.
 
 
-Package rerunfilecheck Warning: File `Group12_Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Group12_Report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C4CC4196BB726B32234711AEC9890774;2719.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  )
@@ -1368,21 +1469,21 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
 ### simple group (level 1) entered at line 13 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20887 strings out of 480900
- 398943 string characters out of 2917038
- 686637 words of memory out of 3000000
- 36060 multiletter control sequences out of 15000+200000
+ 20986 strings out of 480900
+ 401002 string characters out of 2917038
+ 687637 words of memory out of 3000000
+ 36129 multiletter control sequences out of 15000+200000
  583907 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,12n,56p,1337b,923s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,12n,56p,1337b,927s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MIKTEX/fonts/enc/dvips/base/8r.enc}<D:/MIKTEX/fonts/type1/u
 rw/courier/ucrb8a.pfb><D:/MIKTEX/fonts/type1/urw/courier/ucrr8a.pfb><D:/MIKTEX/
 fonts/type1/urw/times/utmb8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utmbi8a.pfb><
 D:/MIKTEX/fonts/type1/urw/times/utmr8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utm
 r8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group12_Report.pdf (34 pages, 1333276 bytes).
+Output written on Group12_Report.pdf (36 pages, 2262301 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 232 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 247 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
