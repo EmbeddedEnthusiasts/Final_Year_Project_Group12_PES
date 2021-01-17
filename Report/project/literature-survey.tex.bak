@@ -1,0 +1,50 @@
+\chapter{Literature Survey}
+\section{Overview}
+\paragraph{}The literature survey of a project forms it's backbone, it defines the path and approach to a project. This formed the base of our project that we referred to whenever needed and looked upon it for guidance.
+\newline
+
+We started our literature survey by watching many videos on YouTube, videos of remote controlled robot, various types of robot structuring. After watching tons of these videos we studied about various microprocessors that would form the core of our project.we tried to build upon an communication algorithm between our robot and other components.
+\newline
+
+We referred to various IEEE papers for similar projects and took inspiration.After long hours of thorough research and study we decided on major segments of our projects.the two segments that we have completed working on are the web application for live feed and the remote control of the robot using keyboard.
+
+\section{Web Application Development}
+\paragraph{}In this study via an IEEE paper, a web application was presented to be interface for all the
+functionality we intended to provide, live video stream monitoring, motor
+control of the robots, authentication of clients, download option for videos
+stream etc.
+\newline
+
+Since our motor control code was already written in Python, we decided to
+make use of python for development of our web application as well by using FLASK.
+we came across the fact that tens of thousands of web applications are written in Flask, a Python-based web framework, and that this is a standard practice for these kind of projects.
+\newline 
+
+There is a rich ecosystem of extensions available in flask. In another IEEE paper, we studied about how to use Flask python module for web application and OpenCV for streaming the video feed from the robot camera.
+\newline
+
+We already were capable to design and code HTML and CSS files for web application and code python script for motor control and video streaming.Finally we learnt Flask framework by watching a YouTube video tutorial.
+
+\section{Remote Control of Robot}
+\paragraph{}Obtaining wireless control between the robot and the keyboard was one of the main obstacles of the project. Since we are using the ‘a’, ’w’, ‘s’ and ‘d’ keys to control the movement of the robot we had to make sure that the delay between the moments when the key was pressed and the data being received by the robot was less in order to make it a real time embedded system. Hence, we had to choose an appropriate data transfer protocol to meet these requirements. Upon doing research we have decided to use a local area network (LAN) and have also decided to choose TCP/IP sockets as the mode of communication due to its fast nature of data transfer and also due to its peer-to-peer connection.
+\newline
+
+The heart of the robot is the raspberry pi 4 (2 GB RAM). After a lot of study we have chosen to use Raspberry Pi over the conventional micro-controllers like Arduino or ESP8266 and the reasons are as follows:
+\begin{enumerate}[a. ]
+ \item The Raspberry Pi being a microprocessor has a real time OS whose kernel is responsible for handling applications and can thus be used to run multiple \\applications at the same time and hence multithreading need not be introduced in the application code.
+ \item The Raspberry Pi has inbuilt Wi-Fi and Bluetooth modules and thus doesn't need separate modules for the same. No additional code is required to connect to the Wi-Fi.
+ \item The Raspberry Pi has 4 USB ports and can thus support USB devices like \\microphone and cameras.
+ \item The Raspberry Pi also has an inbuilt camera slot where we can attach the \\Pi-Camera for streaming live feed.
+ \item The Raspberry pi has 40 GPIO headers out of which 4 are available as PWM pins and can thus be used to control the speed of the motors.
+ \item The Raspberry Pi GPIOs can be accessed and controlled using python code.
+\end{enumerate}
+The OS run on the raspberry pi is Raspbian OS. The reasons why we have used the OS are as follows:
+reasons are as follows:
+\begin{enumerate}[a. ]
+ \item Raspbian is version of Debian used for the Raspberry Pi. It hence is very secure.
+ \item VNC server is inbuilt and freely available on Raspbian and thus there is no need of a separate monitor nor is there any need to install it again. 
+ \item Package installations in Raspbian are simple as installations can be done by running Linux commands in the terminal.
+\end{enumerate}
+
+Choosing a camera for viewing live feed was also another important task. After surfing the web for various cameras we finally decided to use the raspberry pi camera v2.1. The reason why we used it is because it’s a camera specially meant to be used on the Raspberry Pi and thus has good amount of support to start live streams and capture videos and pictures.
+\newpage

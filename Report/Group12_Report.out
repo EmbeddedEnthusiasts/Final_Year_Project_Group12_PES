@@ -1,0 +1,42 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Objective}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Problem statement}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Problem Solution}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Literature Survey}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Overview}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Web Application Development}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Remote Control of Robot}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Hardware and Software Requirements Specification}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Hardware Specification}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.1.1}{Raspberry Pi 4}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.2}{Raspberry Pi Camera}{section.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.1.3}{Motors and its Drivers}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.4}{LiPo Battery}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.5}{Router\(Gateway\)}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{Software Requirements}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Raspbian}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Python}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{Flask}{section.3.2}% 19
+\BOOKMARK [0][-]{chapter.4}{System Design}{}% 20
+\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Designing the Web Application}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{Designing the remote controlled robot movement}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.3.1}{TCP/IP Communication}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.2}{GIX algorithm}{section.4.3}% 25
+\BOOKMARK [0][-]{chapter.5}{Implementation}{}% 26
+\BOOKMARK [1][-]{section.5.1}{Implementation of Web Application}{chapter.5}% 27
+\BOOKMARK [2][-]{subsection.5.1.1}{Software Implementation}{section.5.1}% 28
+\BOOKMARK [2][-]{subsection.5.1.2}{Hardware Implementation}{section.5.1}% 29
+\BOOKMARK [1][-]{section.5.2}{Implementation of Robot Movement}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{Software Implementation}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.2}{Hardware Implementation}{section.5.2}% 32
+\BOOKMARK [0][-]{chapter.6}{Result Analysis}{}% 33
+\BOOKMARK [1][-]{section.6.1}{SECTION NAME}{chapter.6}% 34
+\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Scope}{}% 35
+\BOOKMARK [1][-]{section.7.1}{Conclusion}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.2}{Future Scope}{chapter.7}% 37
+\BOOKMARK [0][-]{Item.86}{References}{}% 38
+\BOOKMARK [0][-]{appendix.A}{Review Process}{}% 39
+\BOOKMARK [1][-]{section.A.1}{Phases of Review}{appendix.A}% 40
+\BOOKMARK [0][-]{appendix.B}{Project Planning}{}% 41
+\BOOKMARK [1][-]{section.B.1}{SECTION 1}{appendix.B}% 42
