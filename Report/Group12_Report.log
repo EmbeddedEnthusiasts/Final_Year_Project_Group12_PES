@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.10.27)  17 JAN 2021 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.10.27)  17 JAN 2021 14:03
 entering extended mode
 **./Group12_Report.tex
 (Group12_Report.tex
@@ -965,27 +965,22 @@ Package pdftex.def Info: project/images/pesitbsc_logo.jpg  used on input line 8
 .
 (pdftex.def)             Requested size: 116.68564pt x 95.60695pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--31
 
  []
 
@@ -1463,11 +1458,7 @@ Package rerunfilecheck Info: File `Group12_Report.out' has not changed.
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 13 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
  20986 strings out of 480900
  401002 string characters out of 2917038
@@ -1475,13 +1466,13 @@ Here is how much of TeX's memory you used:
  36129 multiletter control sequences out of 15000+200000
  583907 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,12n,56p,1337b,927s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MIKTEX/fonts/enc/dvips/base/8r.enc}<D:/MIKTEX/fonts/type1/u
-rw/courier/ucrb8a.pfb><D:/MIKTEX/fonts/type1/urw/courier/ucrr8a.pfb><D:/MIKTEX/
-fonts/type1/urw/times/utmb8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utmbi8a.pfb><
-D:/MIKTEX/fonts/type1/urw/times/utmr8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utm
-r8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group12_Report.pdf (36 pages, 2262301 bytes).
+ 52i,12n,56p,1337b,833s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MIKTEX/fonts/enc/dvips/base/8r.enc}<D:/MIKTEX/fonts/type1/urw/courier/ucr
+b8a.pfb><D:/MIKTEX/fonts/type1/urw/courier/ucrr8a.pfb><D:/MIKTEX/fonts/type1/ur
+w/times/utmb8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utmbi8a.pfb><D:/MIKTEX/font
+s/type1/urw/times/utmr8a.pfb><D:/MIKTEX/fonts/type1/urw/times/utmr8a.pfb><D:/MI
+KTEX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Group12_Report.pdf (36 pages, 2262214 bytes).
 PDF statistics:
  693 PDF objects out of 1000 (max. 8388607)
  247 named destinations out of 1000 (max. 500000)
