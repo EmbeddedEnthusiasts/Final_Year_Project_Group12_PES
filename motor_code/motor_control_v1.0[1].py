@@ -3,7 +3,7 @@ import socket
 
 #socket setup
 s=socket.socket()
-ip="192.168.0.100"
+ip="192.168.0.173"
 port=9999
 s.connect((ip,port))
 
