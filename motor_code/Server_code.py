@@ -2,6 +2,9 @@ import keyboard
 import time
 import socket
 import webbrowser
+import tkinter as tk
+
+window=tk.tk()
 
 s=socket.socket()
 host="192.168.0.10"
