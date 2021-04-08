@@ -5,11 +5,11 @@ from wheel import Wheels
 s=socket.socket()
 for ip in range (0, 255):
     port=9999
-	ipfull="192.168.0."+ip
-	try:
-		s.connect((ipfull,port))
-	except:
-    	continue
+    ipfull="192.168.0."+str(ip)
+    try:
+        s.connect((ipfull,port))
+    except:
+        continue
 
 #speed declaration
 speed=25
