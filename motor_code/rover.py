@@ -3,9 +3,13 @@ from wheel import Wheels
 
 #socket setup
 s=socket.socket()
-ip="192.168.0.29"
-port=9999
-s.connect((ip,port))
+for ip in range (0, 255):
+    port=9999
+    ipfull="192.168.0."+str(ip)
+    try:
+        s.connect((ipfull,port))
+    except:
+        continue
 
 #speed declaration
 speed=25
