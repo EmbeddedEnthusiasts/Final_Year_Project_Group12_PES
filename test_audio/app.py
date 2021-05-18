@@ -1,3 +1,4 @@
+from cv2 import data
 from flask import Flask, Response,render_template
 import pyaudio
 
@@ -41,7 +42,7 @@ def audio():
         sampleRate = 44100
         bitsPerSample = 16
         channels = 1
-        wav_header = genHeader(sampleRate, bitsPerSample, channels)
+        # wav_header = genHeader(sampleRate, bitsPerSample, channels)
 
         stream = audio1.open(format=FORMAT, channels=CHANNELS,
                         rate=RATE, input=True,input_device_index=2,
@@ -50,12 +51,15 @@ def audio():
         #frames = []
         first_run = True
         while True:
-           if first_run:
-               data = wav_header + stream.read(CHUNK, exception_on_overflow = False)
-               first_run = False
-           else:
-               data = stream.read(CHUNK, exception_on_overflow = False)
-           yield(data)
+        #    if first_run:
+        #        data = wav_header + stream.read(CHUNK, exception_on_overflow = False)
+        #        first_run = False
+        #    else:
+        #        data = stream.read(CHUNK, exception_on_overflow = False)
+        #    yield(data)
+            data=stream.read(CHUNK, exception_on_overflow = False)
+            yield (b'--frame\r\n'
+                   b'Content-Type: audio/mp3\r\n\r\n' + data + b'\r\n')
 
     return Response(sound())
 
