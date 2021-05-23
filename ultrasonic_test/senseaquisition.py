@@ -1,9 +1,9 @@
 from flask import Flask
 import json
 from random import seed, randint
-import ultrasonic
+import hcsr
 
-left=ultrasonic.Ultrasonic(16,18)
+left=hcsr.Ultrasonic(16,18)
 
 seed(1)
 
