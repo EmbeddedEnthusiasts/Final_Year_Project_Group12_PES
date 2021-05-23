@@ -1,0 +1,27 @@
+.left #leftdanger{
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+.right #rightdanger{
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+.back #backdanger{
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+.left #leftsafe{
+    color: green;
+    font-weight: bold;
+}
+.right #rightsafe{
+    color: green;
+    font-weight: bold;
+}
+.back #backsafe{
+    color: green;
+    font-weight: bold;
+}
