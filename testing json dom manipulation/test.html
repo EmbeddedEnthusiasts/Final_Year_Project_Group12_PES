@@ -36,17 +36,31 @@
 </div>
 
 <script type="text/javascript">
-	
-	var myjson;
-	$.getJSON("http://127.0.0.1:8008/sample2.json", function(data){
-	console.log("inside fun")
+
+	function start() {
+  // your code here
+
+var myjson;
+	$.getJSON("http://0.0.0.0:8000/sample2.json", function(data){
+	console.log("***UPDATE***")
     console.log(data.color1)
+    console.log(data.color2)
+    console.log(data.color3)
     //pickColor = data.color;
     document.getElementById("card1").style.backgroundColor = data.color1;
     document.getElementById("card2").style.backgroundColor = data.color2;
     document.getElementById("card3").style.backgroundColor = data.color3;
 
+    //document.addEventListner("keypress", function(event))
 });
+
+
+
+    setTimeout(start, 3000);
+}
+
+// boot up the first call
+start();
 
 </script>
 
