@@ -12,7 +12,7 @@
 <body>
 
 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-  <div id="card1" class="card-header">Header</div>
+  <div id="card1" class="card-header">LEFT</div>
   <div id="card1" class="card-body">
     <h5 class="card-title">Primary card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -20,7 +20,7 @@
 </div>
 
 <div class="card text-white bg-secondary mb-3 box2" style="max-width: 18rem;">
-  <div id="card2" class="card-header">Header</div>
+  <div id="card2" class="card-header">RIGHT</div>
   <div id="card2" class="card-body">
     <h5 class="card-title">Secondary card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -28,7 +28,7 @@
 </div>
 
 <div class="card text-white bg-success mb-3 box3" style="max-width: 18rem;">
-  <div id="card3" class="card-header">Header</div>
+  <div id="card3" class="card-header">BACK</div>
   <div id="card3" class="card-body">
     <h5 class="card-title">Another card</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -36,10 +36,10 @@
 </div>
 
 <script type="text/javascript">
-
+	
 	function start() {
   // your code here
-
+  
 var myjson;
 	$.getJSON("http://0.0.0.0:8000/sample2.json", function(data){
 	console.log("***UPDATE***")
@@ -47,9 +47,26 @@ var myjson;
     console.log(data.color2)
     console.log(data.color3)
     //pickColor = data.color;
-    document.getElementById("card1").style.backgroundColor = data.color1;
-    document.getElementById("card2").style.backgroundColor = data.color2;
-    document.getElementById("card3").style.backgroundColor = data.color3;
+    if(data.color1<=3)
+    	document.getElementById("card1").style.backgroundColor = "red";
+	else if(data.color1>3 && data.color1 <8)
+		document.getElementById("card1").style.backgroundColor = "yellow";
+	else if(data.color1>=8)
+		document.getElementById("card1").style.backgroundColor = "green";
+
+	if(data.color2<=3)
+    	document.getElementById("card2").style.backgroundColor = "red";
+	else if(data.color2>3 && data.color2 <8)
+		document.getElementById("card2").style.backgroundColor = "yellow";
+	else if(data.color2>=8)
+		document.getElementById("card2").style.backgroundColor = "green";
+
+    if(data.color3<=3)
+    	document.getElementById("card3").style.backgroundColor = "red";
+	else if(data.color3>3 && data.color3 <8)
+		document.getElementById("card3").style.backgroundColor = "yellow";
+	else if(data.color3>=8)
+		document.getElementById("card3").style.backgroundColor = "green";
 
     //document.addEventListner("keypress", function(event))
 });
