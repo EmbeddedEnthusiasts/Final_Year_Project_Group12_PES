@@ -1,0 +1,11 @@
+{
+      "color1": "black",
+      "color2": "blue",
+      "color3": "red",
+      "category": "hue",
+      "type": "primary",
+      "code": {
+        "rgba": [255,255,255,1],
+        "hex": "#000"
+      }
+    }
