@@ -1,5 +1,11 @@
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response, jsonify
+import hcsr
 import cv2
+
+
+left=hcsr.Ultrasonic(,)
+right=hcsr.Ultrasonic(,)
+back=hcsr.Ultrasonic(,)
 
 app = Flask(__name__)
 
@@ -17,6 +23,15 @@ def gen_frames():  # generate frame by frame from camera
             frame = buffer.tobytes()
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')  # concat frame one by one and show result
+
+
+@app.route('/sensor-api')
+def getSensorValue():
+    return jsonify(
+        l = left.getDistance()
+        r = right.getDistance()
+        b = back.getDistance()
+    )
 
 
 @app.route('/video_feed')
