@@ -29,8 +29,8 @@ def gen_frames():  # generate frame by frame from camera
 def getSensorValue():
     return jsonify(
         l = left.getDistance(),
-        r = right.getDistance(),
-        b = back.getDistance()
+        # r = right.getDistance(),
+        # b = back.getDistance()
     )
 
 
