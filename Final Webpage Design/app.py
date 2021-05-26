@@ -5,7 +5,7 @@ import cv2
 
 left=hcsr.Ultrasonic(19,21)
 right=hcsr.Ultrasonic(22,23)
-back=hcsr.Ultrasonic(24,25)
+back=hcsr.Ultrasonic(24,26)
 
 app = Flask(__name__)
 
