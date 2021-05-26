@@ -3,9 +3,9 @@ import hcsr
 import cv2
 
 
-left=hcsr.Ultrasonic(,)
-right=hcsr.Ultrasonic(,)
-back=hcsr.Ultrasonic(,)
+left=hcsr.Ultrasonic(17,19)
+right=hcsr.Ultrasonic(21,22)
+back=hcsr.Ultrasonic(23,24)
 
 app = Flask(__name__)
 
@@ -28,8 +28,8 @@ def gen_frames():  # generate frame by frame from camera
 @app.route('/sensor-api')
 def getSensorValue():
     return jsonify(
-        l = left.getDistance()
-        r = right.getDistance()
+        l = left.getDistance(),
+        r = right.getDistance(),
         b = back.getDistance()
     )
 
