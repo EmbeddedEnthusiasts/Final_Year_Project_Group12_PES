@@ -1,10 +1,14 @@
-
 body {
   font-family: "Montserrat";
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold";
 }
 
@@ -27,7 +31,7 @@ p {
 
 /* Containers */
 
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
 }
 

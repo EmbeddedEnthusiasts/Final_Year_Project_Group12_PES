@@ -1,111 +1,112 @@
 <!doctype html>
 <html lang="en">
-   <head>
-      <link rel="icon" href="{{url_for('static', filename='logo.ico')}}"" type=" image/gif" sizes="16x16">
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-      <!-- CSS Stylesheets -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles.css') }}">
-      <!-- Font Awesome -->
-      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-      <!-- Google Icons -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-      <!-- Bootstrap Scripts -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <title>Live Streaming Demonstration</title>
-   </head>
-   <body>
-      <section class="colored-section" id="title">
-         <div class="container-fluid">
-            <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-               <a class="navbar-brand" href="">FYP-GP12</a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-               </div>
-            </nav>
-            <!-- Title -->
-            <!-- Video Stream-->
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg " id="left">
-                     <span class="material-icons" style="font-size:60px;color:red;margin-top: 220px;display: none;">
-                     warning
-                     </span>
-                  </div>
-                  <div class="col-lg-8">
-                     <h3 class="mt-5">Live Streaming</h3>
-                     <img src="{{ url_for('video_feed') }}" width="100%">
-                  </div>
-                  <div class="col-lg" id="right">
-                     <span class="material-icons" style="font-size:60px;color:red;margin-top: 220px;display: none;">
-                     warning
-                     </span>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg" id="back">
-                     <span class="material-icons" style="font-size:60px;color:red;margin-top: 20px;display: none;">
-                     warning
-                     </span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- java script-->
-      <script type="text/javascript">
-         function start() {
-         // your code here
-         
-         var myjson;
-         $.getJSON("http://192.168.0.20:5000/sensor-api", function(data){
-         console.log("***UPDATE***")
-           console.log(data.l)
-           console.log(data.r)
-           console.log(data.b)
-           //pickColor = data.color;
-           if(data.l>10)
-             document.getElementById("left").style.display = "none";
-           else
-             document.getElementById("left").style.display = "block";
-           
 
-           if(data.l>10)
-             document.getElementById("right").style.display = "none";
-           else
-             document.getElementById("right").style.display = "block";
+<head>
+  <link rel="icon" href="{{url_for('static', filename='logo.ico')}}"" type=" image/gif" sizes="16x16">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles.css') }}">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- Google Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>FYP-GP12</title>
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">FYP-GP12</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        </div>
+      </nav>
+      <!-- Title -->
+      <!-- Video Stream-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg " id="left">
+            <span class="material-icons" style="font-size:60px;color:red;margin-top: 220px;display: none;">
+              warning
+            </span>
+          </div>
+          <div class="col-lg-8">
+            <h3 class="mt-5">Live Streaming</h3>
+            <img src="{{ url_for('video_feed') }}" width="100%">
+          </div>
+          <div class="col-lg" id="right">
+            <span class="material-icons" style="font-size:60px;color:red;margin-top: 220px;display: none;">
+              warning
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg" id="back">
+            <span class="material-icons" style="font-size:60px;color:red;margin-top: 20px;display: none;">
+              warning
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- java script-->
+  <script type="text/javascript">
+    function start() {
+      // your code here
+
+      var myjson;
+      $.getJSON("http://192.168.0.20:5000/sensor-api", function (data) {
+        console.log("***UPDATE***")
+        console.log(data.l)
+        console.log(data.r)
+        console.log(data.b)
+        if (data.l > 10)
+          document.getElementById("left").style.display = "none";
+        else
+          document.getElementById("left").style.display = "block";
 
 
-           if(data.l>10)
-             document.getElementById("back").style.display = "none";
-           else
-             document.getElementById("back").style.display = "block";
-         });
-         
-         
-         
-           setTimeout(start, 3000);
-         }
-         
-         // boot up the first call
-         start();
-         
-      </script>
-   </body>
+        if (data.l > 10)
+          document.getElementById("right").style.display = "none";
+        else
+          document.getElementById("right").style.display = "block";
+
+
+        if (data.l > 10)
+          document.getElementById("back").style.display = "none";
+        else
+          document.getElementById("back").style.display = "block";
+      });
+
+
+
+      setTimeout(start, 500);
+    }
+
+    // boot up the first call
+    start();
+  </script>
+</body>
+
 </html>
