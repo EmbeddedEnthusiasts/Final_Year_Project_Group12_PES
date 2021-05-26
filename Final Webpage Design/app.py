@@ -2,12 +2,12 @@ from flask import *
 import hcsr
 import cv2
 
+app = Flask(__name__)
 
 left=hcsr.Ultrasonic(19,21)
 right=hcsr.Ultrasonic(22,23)
 back=hcsr.Ultrasonic(24,26)
 
-app = Flask(__name__)
 
 camera = cv2.VideoCapture(0)  # use 0 for web camera
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
