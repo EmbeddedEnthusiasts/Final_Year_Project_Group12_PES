@@ -31,7 +31,7 @@ def video_feed():
     return Response(gen_frames(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route('/')
+@app.route('/sensors-api')
 def getSensorValue():
     return jsonify(
         l = left.getDistance(),
