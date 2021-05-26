@@ -3,9 +3,9 @@ import hcsr
 import cv2
 
 
-left=hcsr.Ultrasonic(17,19)
-right=hcsr.Ultrasonic(21,22)
-back=hcsr.Ultrasonic(23,24)
+left=hcsr.Ultrasonic(19,21)
+right=hcsr.Ultrasonic(22,23)
+back=hcsr.Ultrasonic(24,25)
 
 app = Flask(__name__)
 
