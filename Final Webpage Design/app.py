@@ -9,7 +9,7 @@ right=hcsr.Ultrasonic(22,23)
 back=hcsr.Ultrasonic(24,26)
 
 
-camera = cv2.VideoCapture(-1)  # use 0 for web camera
+camera = cv2.VideoCapture(0)  # use 0 for web camera
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
 
 def gen_frames():
@@ -46,4 +46,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.0.20', debug=True)
+    app.run(host='0.0.0.0', debug=True)
