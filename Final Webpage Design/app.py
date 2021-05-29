@@ -35,7 +35,7 @@ def video_feed():
 def getSensorValue():
     return jsonify(
         l = left.getDistance(),
-        # r = right.getDistance(),
+        r = right.getDistance(),
         # b = back.getDistance()
     )
 
