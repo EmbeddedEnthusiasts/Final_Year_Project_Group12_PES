@@ -3,7 +3,7 @@ import hcsr
 import cv2
 
 app = Flask(__name__)
-
+#pin=hcsr.Ultrasonic(T,E)
 left=hcsr.Ultrasonic(19,21)
 right=hcsr.Ultrasonic(22,23)
 back=hcsr.Ultrasonic(24,26)
