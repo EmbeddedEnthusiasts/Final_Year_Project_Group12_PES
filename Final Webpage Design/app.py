@@ -36,7 +36,7 @@ def getSensorValue():
     return jsonify(
         l = left.getDistance(),
         r = right.getDistance(),
-        # b = back.getDistance()
+        b = back.getDistance()
     )
 
 @app.route('/home')

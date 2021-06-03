@@ -62,7 +62,7 @@
         </div>
         <div class="row">
           <div class="col-lg" >
-            <span class="material-icons" id="back" style="font-size:60px;color:red;margin-top: 20px;display: none;">
+            <span class="material-icons" id="back" style="font-size:60px;color:red;margin-top: 20px;display: none;justify-content: center;">
               warning
             </span>
           </div>
@@ -80,7 +80,7 @@
         console.log("***UPDATE***")
         console.log(data.l)
         console.log(data.r)
-        //console.log(data.b)
+        console.log(data.b)
         if (data.l > 10)
           document.getElementById("left").style.display = "none";
         else
@@ -93,7 +93,7 @@
           document.getElementById("right").style.display = "block";
 
 
-        if (data.l > 10)
+        if (data.b > 10)
           document.getElementById("back").style.display = "none";
         else
           document.getElementById("back").style.display = "block";
