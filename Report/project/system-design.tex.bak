@@ -6,8 +6,8 @@
 
 \begin{figure}[h]
 \centering
-\caption{Block Diagram of Web Application}
 \includegraphics[scale=0.4]{bdweb.jpg}
+\caption{Block Diagram of Web Application}
 \end{figure}
 
 \subsubsection*{Here is the basic file structure for flask:} 
@@ -45,10 +45,11 @@ Python modules used in app.py (main web app Script/Program):
 
 \section{Designing the remote controlled robot movement}
 The heart of the robot is a raspberry pi 4(2GB RAM) which is a credit card sized computer used in a wide range of applications varying from a simple personal \\computer to advanced robotics.  The raspberry pi has an inbuilt Wi-Fi module which can connect to any network. The OS of the raspberry pi resides within an SD card of size 32 GB. The motors of the robot are controlled using the PWM pins available on the 40 pin GPIOS of the raspberry pi. The raspberry pi GPIO pins output a \\current insufficient to drive the motors and hence we have used the L298N motor driver which amplifies the current so that it drives the motors easily. In order to get \\information about the surroundings of the area in which the robot is patrolling we have used three sensors. They are ultrasonic sensors, Picamera v2.1 and a USB mic. The ultrasonic sensor is used to measure distances on all sides of the robot in order to ensure that the robot doesn’t collide with any obstacles in its vicinity. The Picamera acts as the eyes of the robot. The robot is steered using the ‘a’, ’w’, ‘s’ and ‘d’ keys of the robot based on the camera feed received. The USB mic acts like the ears of the robot. Using the mic, the robot can capture audio within its vicinity.
+\vspace{0.5cm}
 \begin{figure}[h]
 \centering
+\includegraphics[scale=1]{bdrobot.png}
 \caption{Block Diagram of Robot}
-\includegraphics[scale=0.8]{bdrobot.png}
 \end{figure}
 \subsection{TCP/IP Communication}
 The communication protocol which we have opted to use in our project is the TCP/IP socket protocol.  The TCP/IP socket protocol establishes a peer-to-peer connection between the server and the client followed by which data is transferred in the form of packets of fixed length. In our case each packet is 1024 bytes in length. A socket is one end of a 2-way communication. A socket consists of an IPV4 address and a port number. The connection between the server and the client happens with a series of events occurring on both the server and the client sides.
@@ -84,6 +85,6 @@ The GIX algorithm is an acronym for “Gone in exchange” Algorithm . The GIX a
 \end{enumerate}
 \begin{figure}[h]
 \centering
-\caption{GIX Algorithm}
 \includegraphics[scale=0.8]{gix.png}
+\caption{GIX Algorithm}
 \end{figure}

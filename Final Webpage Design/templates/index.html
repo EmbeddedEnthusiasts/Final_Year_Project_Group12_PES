@@ -52,7 +52,7 @@
           </div>
           <div class="col-lg-8">
             <h3 class="mt-5">Live Streaming</h3>
-            <img src="http://192.168.0.20:5001/video_feed" width="100%">
+            <img src="http://192.168.0.160:5001/video_feed" width="100%">
           </div>
           <div class="col-lg" >
             <span class="material-icons" id="right" style="font-size:60px;color:red;margin-top: 220px;display: none;">
@@ -76,7 +76,7 @@
       // your code here
 
       var myjson;
-      $.getJSON("http://192.168.0.20:5000/sensors-api", function (data) {
+      $.getJSON("http://192.168.0.160:5000/sensors-api", function (data) {
         console.log("***UPDATE***")
         console.log(data.l)
         console.log(data.r)

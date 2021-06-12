@@ -2,26 +2,26 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Raspberry Pi 4\relax }}{8}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Raspberry Pi Pin-out\relax }}{8}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Raspberry Pi Camera v2.1\relax }}{9}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces BO DC Motor\relax }}{9}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces L298N Motor Driver\relax }}{10}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces LiPo Battery\relax }}{11}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Router\relax }}{12}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Rasbian\relax }}{12}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Python\relax }}{13}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Flask\relax }}{13}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Raspberry Pi 4\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Raspberry Pi Pin-out\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Raspberry Pi Camera v2.1\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces BO DC Motor\relax }}{9}{figure.caption.21}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces L298N Motor Driver\relax }}{10}{figure.caption.23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces LiPo Battery\relax }}{11}{figure.caption.24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Router\relax }}{12}{figure.caption.25}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Rasbian\relax }}{12}{figure.caption.26}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Python\relax }}{13}{figure.caption.27}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Flask\relax }}{13}{figure.caption.28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of Web Application\relax }}{14}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of Robot\relax }}{16}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces GIX Algorithm\relax }}{18}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of Web Application\relax }}{14}{figure.caption.31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of Robot\relax }}{16}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces GIX Algorithm\relax }}{18}{figure.caption.39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Live feed capture using Raspberry Pi Camera\relax }}{19}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Circuit Connections\relax }}{20}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Live feed capture using Raspberry Pi Camera\relax }}{19}{figure.caption.40}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Circuit Connections\relax }}{20}{figure.caption.41}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Working of motor using LEDs\relax }}{21}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Local Live feed on Webpage\relax }}{22}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Working of motor using LEDs\relax }}{21}{figure.caption.42}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Local Live feed on Webpage\relax }}{22}{figure.caption.43}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

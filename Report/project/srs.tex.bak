@@ -79,7 +79,7 @@ A lithium polymer battery, or more correctly lithium-ion polymer battery, is a r
 \caption{LiPo Battery}
 \end{figure}
 \subsection{Router(Gateway)}
-\begin{enumerate}
+\begin{enumerate}[ ]
 \item The router is a physical or virtual inter-networking device that is designed to receive, analyze, and forward data packets between computer networks. A router examines a destination IP address of a given data packet, and it uses the headers and forwarding tables to decide the best way to transfer the packets. 
 Some important points of routers are given below: 
 \item A router is used in LAN (Local Area Network) and WAN (Wide Area Network) environments. For example, it is used in offices for connectivity, and you can also establish the connection between distant networks. 
@@ -93,7 +93,7 @@ Some important points of routers are given below:
 \end{figure}
 \section{Software Requirements}
 \subsection{Raspbian}
-\begin{enumerate}
+\begin{enumerate}[ ]
 \item Raspberry Pi OS (formerly Raspbian) is a Debian-based operating system for Raspberry Pi. Since 2015 it has been officially provided by the Raspberry Pi Foundation as the primary operating system for the Raspberry Pi family of compact single-board computers. 
 \item Previous Pi OS versions have been 32bit and based on Raspbian core, taking the name Raspbian. Since recent 64bit versions no longer use the Raspbian core, the name has been changed to Raspberry Pi OS for both 64bit and 32bit versions.
 \item Raspberry Pi OS is highly optimized for the Raspberry Pi line of compact single-board computers with ARM CPUs. Raspberry Pi OS uses a modified LXDE as its desktop environment with the Openbox stacking window \\manager. 
@@ -103,8 +103,9 @@ Some important points of routers are given below:
 \includegraphics[scale=0.3]{raspbian.png}
 \caption{Rasbian}
 \end{figure}
+\newpage
 \subsection{Python}
-\begin{enumerate}
+\begin{enumerate}[ ]
 \item Python is an interpreted, high-level and general-purpose programming \\language. Python's design philosophy emphasizes code readability with its \\notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and \\large-scale projects.
 \item Python is dynamically typed and garbage-collected. It supports multiple \\programming paradigms, including structured (particularly, procedural), \\object-oriented and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.
 \end{enumerate}
@@ -113,9 +114,12 @@ Some important points of routers are given below:
 \includegraphics[scale=0.3]{python.png}
 \caption{Python}
 \end{figure}
-\newpage
+
 \subsection{Flask}
-Flask is a micro web framework written in Python. It is classified as a \\microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where \\pre-existing third-party libraries provide common functions. However, Flask \\supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
+\begin{enumerate}[ ]
+\item Flask is a micro web framework written in Python. It is classified as a \\microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where \\pre-existing third-party libraries provide common functions.
+\item However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
+\end{enumerate}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.3]{flask.png}
