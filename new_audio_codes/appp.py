@@ -22,7 +22,7 @@ def  liveaudio():
                 input_device_index=2)
     frames = []
     for i in range(int(sample_rate/chunk*record_seconds)):
-        data = stream.read(chunk)
+        data = stream.read(chunk, exception_on_overflow=False)
         frames.append(data)
     stream.stop_stream()
     stream.close()

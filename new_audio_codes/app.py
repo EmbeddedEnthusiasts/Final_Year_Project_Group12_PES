@@ -25,7 +25,7 @@ def  liveaudio():
                         frames_per_buffer=chunk)
         frames = []
         for i in range(int(44100 / chunk * record_seconds)):
-            data = stream.read(chunk)
+            data = stream.read(chunk, exception_on_overflow=False)
             frames.append(data)
         stream.stop_stream()
         stream.close()
