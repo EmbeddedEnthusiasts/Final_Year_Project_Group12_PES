@@ -40,6 +40,7 @@ def  liveaudio():
         # return send_from_directory("/home/pi/Desktop/Final_Year_Project_Group12_PES/new_audio_codes", "recorded.wav")
 
 @app.route('/home')
+def index():
     return render_template('index.html')
 
 if __name__=="__main__":
