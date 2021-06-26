@@ -7,6 +7,6 @@
     <title>test audio</title>
 </head>
 <body>
-    <audio autoplay controls preload="auto" loop src="/home/pi/Desktop/Final_Year_Project_Group12_PES/new_audio_codes/recorded.wav" type="audio/wav"></audio>
+    <audio autoplay controls preload="auto" loop src="{{ url_for('',filename='recorded.wav') }}" type="audio/wav"></audio>
 </body>
 </html>
