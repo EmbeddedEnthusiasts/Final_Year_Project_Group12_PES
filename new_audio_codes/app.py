@@ -39,6 +39,8 @@ def  liveaudio():
         time.sleep(0.01)
         # return send_from_directory("/home/pi/Desktop/Final_Year_Project_Group12_PES/new_audio_codes", "recorded.wav")
 
+@app.route('/home')
+    return render_template('index.html')
 
 if __name__=="__main__":
     app.run(host='0.0.0.0', port=5002, debug=True)
