@@ -20,7 +20,7 @@ def Connect():
     c,a=s.accept()
     window.destroy()
     print(a[0])
-    URL="http://"+a[0]+":5000"
+    URL="http://"+a[0]+":5000/home"
     webbrowser.open(URL, new=2)
     mes='x'
     while True:
