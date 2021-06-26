@@ -6,10 +6,10 @@ import time
 appp=Flask(__name__)
 
 def  liveaudio():
-    filename = "recorded.wav"
+    filename = "/static/recorded.wav"
     chunk = 1024
     FORMAT = pyaudio.paInt16
-    channels = 1
+    channels = 2
     sample_rate = 44100
     record_seconds=0.5
     p = pyaudio.PyAudio()
