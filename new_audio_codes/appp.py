@@ -1,7 +1,7 @@
 from flask import Flask,send_from_directory,render_template
 import pyaudio
 import wave
-
+import time
 
 appp=Flask(__name__)
 
@@ -18,7 +18,8 @@ def  liveaudio():
                 rate=sample_rate,
                 input=True,
                 output=True,
-                frames_per_buffer=chunk)
+                frames_per_buffer=chunk,
+                input_device_index=2)
     frames = []
     for i in range(int(sample_rate/chunk*record_seconds)):
         data = stream.read(chunk)
@@ -39,6 +40,7 @@ def  liveaudio():
 def index():
     while True:
         liveaudio()
+        time.sleep(0.1)
 
 if __name__=="__main__":
     appp.run(host='0.0.0.0', port=5000, debug=True)
