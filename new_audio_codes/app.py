@@ -37,7 +37,7 @@ def  liveaudio():
         wf.writeframes(b"".join(frames))
         wf.close()
         time.sleep(0.01)
-        # return send_from_directory("/home/pi/Desktop/Final_Year_Project_Group12_PES/new_audio_codes", "recorded.wav")
+        # return send_from_directory("/home/pi/Desktop/Final_Year_Project_Group12_PES/new_audio_codes/static/", "recorded.wav")
 
 @app.route('/home')
 def index():
