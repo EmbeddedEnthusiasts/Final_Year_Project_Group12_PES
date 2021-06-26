@@ -9,7 +9,7 @@ def  liveaudio():
     filename = "/static/recorded.wav"
     chunk = 1024
     FORMAT = pyaudio.paInt16
-    channels = 2
+    channels = 1
     sample_rate = 44100
     record_seconds=1
     p = pyaudio.PyAudio()
