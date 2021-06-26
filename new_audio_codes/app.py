@@ -5,8 +5,6 @@ import wave
 
 app=Flask(__name__)
 
-@app.route('/')
-
 filename = "recorded.wav"
 chunk = 1024
 FORMAT = pyaudio.paInt16
@@ -21,6 +19,7 @@ stream = p.open(format=FORMAT,
                 output=True,
                 frames_per_buffer=chunk)
 
+@app.route('/')
 def  liveaudio():
     frames = []
     for i in range(int(44100 / chunk * record_seconds)):
