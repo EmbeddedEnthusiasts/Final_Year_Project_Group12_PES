@@ -15,7 +15,7 @@ def  liveaudio():
         FORMAT = pyaudio.paInt16
         channels = 1
         sample_rate = 44100
-        record_seconds=0.3
+        record_seconds=1
         p = pyaudio.PyAudio()
         stream = p.open(format=FORMAT,
                         channels=channels,
