@@ -10,7 +10,7 @@ app=Flask(__name__)
 @app.route('/')
 def  liveaudio():
     while True:
-        filename = "/static/recorded.wav"
+        filename = "recorded.wav"
         chunk = 1024
         FORMAT = pyaudio.paInt16
         channels = 1

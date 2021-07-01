@@ -20,7 +20,7 @@ right=Wheels(18,16,12,0)
 
 while True:
 	d=str(s.recv(1024),"utf-8")
-	print(d)
+	#print(d)
 	if d=='w':
 		left.control(1,0,speed)
 		right.control(1,0,speed)
