@@ -17,8 +17,8 @@ s.connect((ipfull,port))
 speed=25
 
 #wheel setup
-left=Wheels(18,16,33,0)
-right=Wheels(13,15,12,0)
+left=Wheels(13,15,33,0)
+right=Wheels(18,16,12,0)
 
 while True:
 	d=str(s.recv(1024),"utf-8")
