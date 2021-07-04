@@ -11,7 +11,7 @@ s=socket.socket()
 #     except:
 #         continue
 port=9999
-ipfull="192.168.0.6"\
+ipfull="192.168.0.6"
 s.connect((ipfull,port))
 #speed declaration
 speed=25
