@@ -8,13 +8,13 @@ s=socket.socket()
 window=tk.Tk()
 iplab=tk.Label(window,text="Enter IP Address of your device")
 ipent=tk.Entry(window)
-portlab=tk.Label(window,text="Enter Port Number")
-portent=tk.Entry(window)
+# portlab=tk.Label(window,text="Enter Port Number")
+# portent=tk.Entry(window)
 def Connect():
     global s
     global window
     host=ipent.get()
-    port=int(portent.get())
+    port=9999
     s.bind((host,port))
     s.listen(5)
     c,a=s.accept()
@@ -42,9 +42,9 @@ def Connect():
 conbut=tk.Button(window,text="Connect",command=Connect)
 iplab.grid(row=0,column=0)
 ipent.grid(row=0,column=1)
-portlab.grid(row=1,column=0)
-portent.grid(row=1,column=1)
-conbut.grid(row=3,column=1)
+# portlab.grid(row=1,column=0)
+# portent.grid(row=1,column=1)
+conbut.grid(row=2,column=1)
 
 window.mainloop()
 
