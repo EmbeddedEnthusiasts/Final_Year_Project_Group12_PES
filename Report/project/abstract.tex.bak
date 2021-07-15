@@ -4,10 +4,14 @@
 \LARGE{\textbf{ABSTRACT}}\\[1.0cm]
 \end{center}
 \thispagestyle{empty}
-\large{\paragraph{}Increasing numbers of crimes around the globe have created a demand for high level of safety and security. At the same time with the fast paced world there has been a requirement to reduce human effort. Many  people are increasingly approaching solutions offered by technology to tackle this.
-\newline
+\large{\paragraph{}Increasing numbers of crimes around the globe have created a demand for high
+level of safety and security. At the same time with the fast paced world there has
+been a requirement to reduce human effort. Many people are increasingly approaching solutions offered by technology to tackle this.
 
-Our project aims at introducing a product in the market that not only ensures security of a bounded area , but also focuses on safety and right to privacy by maintaining a highly secure data storage system. Designed and realized in this project, the robot is equipped with a camera, microphone and ultrasonic sensors that  provide remote visuals and audio streams. This is done with the help of a Raspberry Pi and Wi-Fi module. Solar charging of the robot allows conservation of non renewable resources, thus helping us reduce carbon footprint.
+Our project aims at introducing a product in the market that not only ensures
+security of a bounded area , but also focuses on safety and right to privacy by maintaining a highly secure data storage system. Designed and realized in this project,
+the robot is equipped with a camera and Ultrasonic sensors. This is done with the help of a Raspberry Pi and
+Wi-Fi module.
 }\\
 \newline
-\textbf{Keywords: }Robot, Camera, Microphone, Ultrasonic sensors, Raspberry Pi, Wi-Fi, Solar Panels.
+\textbf{Keywords: }TCP-IP Sockets, Raspberry Pi, Surveillance, Open-CV, Python 3, Website, Web development, Flask, Server, Robotics, Robot, Camera, Ultrasonic sensor.

@@ -71,6 +71,13 @@ L298N Motor Driver Module is a high power motor driver module for driving DC and
 \includegraphics[scale=0.4]{L298N.jpg}
 \caption{L298N Motor Driver}
 \end{figure}
+\subsection{Ultrasonic Sensor (HC-SR04)}
+An ultrasonic sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound waves, and converts the reflected sound into an electrical signal.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{ultrasonic.jpg}
+\caption{Ultrasonic Sensor (HC-SR04)}
+\end{figure}
 \subsection{LiPo Battery}
 A lithium polymer battery, or more correctly lithium-ion polymer battery, is a rechargeable battery of lithium-ion technology using a polymer electrolyte instead of a liquid electrolyte. High conductivity semisolid (gel) polymers form this \\electrolyte. These batteries provide higher specific energy than other lithium battery types and are used in applications where weight is a critical feature, such as mobile devices, radio-controlled aircraft and some electric vehicles 
 \begin{figure}[h]
@@ -91,37 +98,43 @@ Some important points of routers are given below:
 \includegraphics[scale=0.3]{router.jpg}
 \caption{Router}
 \end{figure}
+\subsection{Solar Panel}
+A solar panel is an assembly of photo-voltaic cells mounted in a framework for installation. It uses sunlight as a source of energy to generate direct current electricity.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{solar.jpg}
+\caption{Solar Panel}
+\end{figure}
 \section{Software Requirements}
 \subsection{Raspbian}
-\begin{enumerate}[ ]
-\item Raspberry Pi OS (formerly Raspbian) is a Debian-based operating system for Raspberry Pi. Since 2015 it has been officially provided by the Raspberry Pi Foundation as the primary operating system for the Raspberry Pi family of compact single-board computers. 
-\item Previous Pi OS versions have been 32bit and based on Raspbian core, taking the name Raspbian. Since recent 64bit versions no longer use the Raspbian core, the name has been changed to Raspberry Pi OS for both 64bit and 32bit versions.
-\item Raspberry Pi OS is highly optimized for the Raspberry Pi line of compact single-board computers with ARM CPUs. Raspberry Pi OS uses a modified LXDE as its desktop environment with the Openbox stacking window \\manager. 
-\end{enumerate}
-\begin{figure}[h]
+%\begin{enumerate}[ ]
+\begin{wrapfigure}{r}{0.15\textwidth}
 \centering
-\includegraphics[scale=0.3]{raspbian.png}
-\caption{Rasbian}
-\end{figure}
-\newpage
+    \includegraphics[width=0.15\textwidth]{raspbian.png}
+\end{wrapfigure}
+Raspberry Pi OS (formerly Raspbian) is a Debian-based operating system for Raspberry Pi. Since 2015 it has been officially provided by the Raspberry Pi Foundation as the primary operating system for the Raspberry Pi family of compact single-board computers. 
+
+Previous Pi OS versions have been 32bit and based on Raspbian core, taking the name Raspbian. Since recent 64bit versions no longer use the Raspbian core, the name has been changed to Raspberry Pi OS for both 64bit and 32bit versions.
+
+Raspberry Pi OS is highly optimized for the Raspberry Pi line of compact single-board computers with ARM CPUs. Raspberry Pi OS uses a modified LXDE as its desktop environment with the Openbox stacking window manager. 
+%\end{enumerate}
+
 \subsection{Python}
-\begin{enumerate}[ ]
-\item Python is an interpreted, high-level and general-purpose programming \\language. Python's design philosophy emphasizes code readability with its \\notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and \\large-scale projects.
-\item Python is dynamically typed and garbage-collected. It supports multiple \\programming paradigms, including structured (particularly, procedural), \\object-oriented and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.
-\end{enumerate}
-\begin{figure}[h]
+%\begin{enumerate}[ ]
+\begin{wrapfigure}{r}{0.15\textwidth}
 \centering
-\includegraphics[scale=0.3]{python.png}
-\caption{Python}
-\end{figure}
+    \includegraphics[width=0.15\textwidth]{python.png}
+\end{wrapfigure}
+Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+
+Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming. Python is often described as a ``batteries included" language due to its comprehensive standard library.
+%\end{enumerate}
 
 \subsection{Flask}
-\begin{enumerate}[ ]
-\item Flask is a micro web framework written in Python. It is classified as a \\microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where \\pre-existing third-party libraries provide common functions.
-\item However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
-\end{enumerate}
-\begin{figure}[h]
+%\begin{enumerate}[ ]
+\begin{wrapfigure}{r}{0.15\textwidth}
 \centering
-\includegraphics[scale=0.3]{flask.png}
-\caption{Flask}
-\end{figure}
+    \includegraphics[width=0.15\textwidth]{flask.png}
+\end{wrapfigure}
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or \\libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
+%\end{enumerate}

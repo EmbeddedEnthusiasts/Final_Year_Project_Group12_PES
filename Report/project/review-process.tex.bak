@@ -3,15 +3,15 @@
 \section{Phases of Review}
 \paragraph{} Project was evaluated at phases with major checkpoints as follows :\\
 
-\textbf {\underline{Pre-Review :  \textit{Defining Problem Statement and Feasibility analysis Review}}}
+\textbf {\underline{Pre-Review :  \textit{Defining Problem Statement and Analysis Review} (27/10/2020)}}
 \begin{enumerate}
 \item Understanding of the problem statement.  
 \item Technical understanding of domain. 
 \item Identification of differentiating features.
-\item Feasibility of conversion to product or paper.
+\item Feasibility of conversion to product.
 \end{enumerate}
 
-\textbf {\underline{1st Review :  \textit{Literature survey and Project plan Review }}}
+\textbf {\underline{1st Review :  \textit{Literature survey and Project plan Review } (9/11/2020)}}
 \begin{enumerate}
 \item Clarity in understanding of the problem/project. 
 \item Completion of Literature Survey. 
@@ -19,7 +19,7 @@
 \item Timeline for completion of project using Gantt chart.
 \end{enumerate}
 
-\textbf {\underline{2nd Review :  \textit{Module level design and Test Plan Review}}}
+\textbf {\underline{2nd Review :  \textit{Module level design and Test Plan Review} (7/12/2020)}}
 \begin{enumerate}
 \item Detail design of each module. 
 \item Integration and module test plan. 

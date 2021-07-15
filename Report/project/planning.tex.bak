@@ -2,5 +2,5 @@
 \chapter{Project Planning}
 \section*{Gantt Chart}
 \begin{figure}[h]
-\includegraphics[scale=0.6]{gchart.png}
+\includegraphics[scale=0.275]{gchart.png}
 \end{figure}

@@ -2,14 +2,14 @@
 
 %adjust your page margins here
 \usepackage[top=0.70in, bottom=0.70in, left=0.8in,right=0.80in]{geometry} % setting the page alignment with this package
-\usepackage[pdftex]{graphicx} %for embedding images
+%\usepackage[pdftex]{graphicx} %for embedding images
 \usepackage{ragged2e}
 \usepackage[%dvips, % commented for pdflatex
 bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
 \hypersetup{%
     pdfborder = {0 0 0}
 }
-\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
+%\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
 \usepackage{float} %used for figure placement with H as a parameter
 \usepackage{hyperref}
 \usepackage{graphicx}
@@ -19,13 +19,12 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 \usepackage{float}
 \usepackage{enumerate}
 \usepackage{longtable}
-
+\usepackage{wrapfig}
 \usepackage[font=small,labelfont=bf]{caption}
 \def\figurename{\textbf{Figure }}
 \usepackage{siunitx}
 \usepackage{listings}
 \usepackage{color}
-\usepackage{graphicx}
 \graphicspath{{project/images/}}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -59,6 +58,7 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 
 %For the header and footer
 \usepackage{fancyhdr}
+\usepackage[export]{adjustbox}
 \fancypagestyle{plain}{%
 \fancyfoot[L]{\emph{ECE Department, PESIT-BSC, Bangalore}} % except the center
 \fancyfoot[R]{\thepage}
@@ -107,7 +107,7 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 \lhead{ }
 
 %FROM HERE YOUR PAGES START GETTING ADDED
-
+%\cleardoublepage
 % includes the cover page
 \input{project/cover.tex}
 \newpage
@@ -128,12 +128,13 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 
 %TABLE OF CONTENTS AND LIST OF FIGURES ARE AUTOMATICALLY ADDED BY FOLLOWING COMMANDS
 %ADD FIGURE OF TABLES IF YOU NEED TO, CHECK DOCUMENTATION
-\pagenumbering{roman} %numbering before main content starts
+%\pagenumbering{roman} %numbering before main content starts
 
 
 %To reset the Header & Footer for TOC and LOF
 \pagestyle{empty}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
+\pagenumbering{roman}
 \tableofcontents % adds Index Page
 
 \addtocontents{lof}{\protect\thispagestyle{empty}}
@@ -146,10 +147,10 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 
 %And reset back the settings we choose for Header and Footer
 \pagestyle{fancy}
-
-\newpage
+\cleardoublepage
+%\newpage
 \pagenumbering{arabic} %reset numbering to normal for the main content
-
+\setcounter{page}{0}
 \input{project/introduction.tex} % adds the introduction page
 \input{project/literature-survey.tex} % adds the Literature Survey page
 \input{project/srs.tex}
@@ -160,6 +161,6 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 \input{project/ref.tex} % adds the References page
 \input{project/review-process.tex}
 \input{project/planning.tex}
-%\input{project/semesterwise.tex}
-
+\input{project/semesterwise.tex}
+\input{project/links.tex}
 \end{document}

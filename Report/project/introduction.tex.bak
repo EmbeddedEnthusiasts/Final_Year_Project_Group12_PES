@@ -1,17 +1,28 @@
 \chapter{Introduction}
 \section{Objective}
-\paragraph{}To reduce human effort whilst maintaining the integrity of a system and at the same time improving the efficiency in applications requiring surveillance or security by providing a movable camera/microphone on a RC controlled robot supported by Wi-Fi.
+\paragraph{}To reduce human effort whilst maintaining the integrity of a system and at the same time improving the efficiency in applications requiring surveillance or security by providing a movable camera/microphone on a Remote controlled robot supported by Wi-Fi.
 \section{Problem statement}
-\paragraph{}Crimes like Robbery, breaking and entering, threats to ones safety have made all organizations aware and have forced them to take preventive actions to preclude occurrence of such incidents. It is not just governments or organizations that are choosing to wear a defensive posture, but citizens at an individual level as well, are worried about personal, home and organizational security.
-
-Increasing concerns about business and private property surveillance has given manufacturers and vendors of security equipments a chance to sell these systems by leveraging this fear. Sales figures of security systems are skyrocketing as people tend to believe that these systems can add a layer of security and safeguard their possessions in case of any incident.
-
-The major problem with the development of these devices are to make them compact and light weight. With respect to the project some major hurdles include dealing with huge amounts of data storage that has to be highly secured to ensure the privacy of the organizational content. Another problem that we face is to establish a method to make controlling of the robot very handy,i.e obtaining a wireless control between the robot and the keyboard.
+\paragraph{}Crimes like Robbery, breaking and entering, threats to ones safety have made
+all organizations aware and have forced them to take measures to avoid
+occurrence of any such incidents. It is not just government bodies or organizations that are
+choosing to take preventive actions, but citizens at a personal level as well, are
+worried about individual, home and organizational security.
+Increasing concerns about business and private property surveillance has given
+manufacturers and vendors of security equipment a chance to sell these systems
+by leveraging this fear. Market value of security systems are increasing exponentially as a result of people believing that these systems can add a layer of security and safeguard their
+assets in case of any incidents.
+The major problem with the development of these devices are to make them
+compact and light weight. With respect to the project some major hurdles include
+dealing with huge amounts of data storage that has to be highly secured to ensure the
+privacy of the organizational content. Another problem that we face is to establish a
+method to make controlling of the robot very handy, i.e obtaining a wireless control
+between the robot and the keyboard.
 \section{Problem Solution}
-\paragraph{}Our project aims at introducing a similar product in the market that not only ensures security of a bounded area , but also focuses on safety and right to privacy by maintaining a highly secure data storage system.
-
-The primary objective of our product is to provide remote surveillance to enhance security in an organization. it can be used to monitor inaccessible areas henceforth reducing the risk to human lives.
-
-The robot can be used to increase efficiency of observation and data accumulation in-case of repetitive and tedious tasks. In short, the robot provides remotely accessible and monitored visuals and audio streams to increase the efficiency of security and surveillance while reducing human effort and maintaining safe cloud storage of data.
-
+\paragraph{}Our project aims at introducing a similar product in the market that not only ensures security of a bounded area, but also focuses on safety and right to privacy by
+maintaining a highly secure data storage system.
+The primary objective of our product is to provide remote surveillance to enhance security in an organization. It can be used to monitor inaccessible areas henceforth reducing the risk to human lives.
+The robot can be used to increase efficiency of observation and data accumulation in-case of repetitive and tedious tasks. In short, the robot provides remotely
+accessible and monitored visuals streams to increase the efficiency of
+security and surveillance while reducing human effort and maintaining safe cloud
+storage of data.
 The solar charging allows conservation of non renewable resources, thus helping us reduce carbon footprint. This product is environment friendly and is a step towards sustainable development.
