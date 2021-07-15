@@ -79,7 +79,7 @@ An ultrasonic sensor is an electronic device that measures the distance of a tar
 \caption{Ultrasonic Sensor (HC-SR04)}
 \end{figure}
 \subsection{LiPo Battery}
-A lithium polymer battery, or more correctly lithium-ion polymer battery, is a rechargeable battery of lithium-ion technology using a polymer electrolyte instead of a liquid electrolyte. High conductivity semisolid (gel) polymers form this \\electrolyte. These batteries provide higher specific energy than other lithium battery types and are used in applications where weight is a critical feature, such as mobile devices, radio-controlled aircraft and some electric vehicles 
+A lithium polymer battery, or more correctly lithium-ion polymer battery, is a rechargeable battery of lithium-ion technology using a polymer electrolyte instead of a liquid electrolyte. High conductivity semisolid (gel) polymers form this electrolyte. These batteries provide higher specific energy than other lithium battery types and are used in applications where weight is a critical feature, such as mobile devices, radio-controlled aircraft and some electric vehicles 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.25]{lipo.png}

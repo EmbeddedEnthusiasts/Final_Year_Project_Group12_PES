@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2021.4.27)  15 JUL 2021 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2021.4.27)  15 JUL 2021 21:46
 entering extended mode
 **./Group12_Report.tex
 (Group12_Report.tex
@@ -1378,7 +1378,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[0
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Literature Survey} [1
 
 ]
 
@@ -1389,12 +1394,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Literature Survey} [1
+            {Literature Survey} [2
 
 
 
@@ -1434,12 +1439,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 
-      [2]
+      [3]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
@@ -1481,13 +1486,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.37  \item T
              he Raspberry pi has 40 GPIO headers out of which 4 are availabl...
-[3
+[4
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -1502,12 +1507,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.48 \newpage
-              [4]) (project/srs.tex
+              [5]) (project/srs.tex
 Chapter 3.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
@@ -1519,13 +1524,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 \item M
-            icro-SD card slot for loading operating system and data storage
-[5]
+[6]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 23.
  (D:\miktex2.9\tex\latex\psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1533,17 +1532,17 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-<project/images/rpi.jpg, id=375, 602.25pt x 401.5pt>
+<project/images/rpi.jpg, id=374, 602.25pt x 401.5pt>
 File: project/images/rpi.jpg Graphic file (type jpg)
 <use project/images/rpi.jpg>
 Package pdftex.def Info: project/images/rpi.jpg  used on input line 28.
 (pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
-<project/images/rpipin.png, id=376, 331.2375pt x 426.09187pt>
+<project/images/rpipin.png, id=375, 331.2375pt x 426.09187pt>
 File: project/images/rpipin.png Graphic file (type png)
 <use project/images/rpipin.png>
 Package pdftex.def Info: project/images/rpipin.png  used on input line 30.
 (pdftex.def)             Requested size: 165.61833pt x 213.04541pt.
-<project/images/rpicam.jpg, id=377, 602.25pt x 401.5pt>
+<project/images/rpicam.jpg, id=376, 602.25pt x 401.5pt>
 File: project/images/rpicam.jpg Graphic file (type jpg)
 <use project/images/rpicam.jpg>
 Package pdftex.def Info: project/images/rpicam.jpg  used on input line 37.
@@ -1562,7 +1561,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[7
 
 ]
 <project/images/bomotor.jpg, id=394, 1003.75pt x 1003.75pt>
@@ -1579,7 +1578,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7 <./project/images/rpi.jpg> <./project/images/rpipin.png>]
+[8 <./project/images/rpi.jpg> <./project/images/rpipin.png>]
 <project/images/L298N.jpg, id=406, 752.8125pt x 501.875pt>
 File: project/images/L298N.jpg Graphic file (type jpg)
 <use project/images/L298N.jpg>
@@ -1599,7 +1598,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./project/images/rpicam.jpg> <./project/images/bomotor.jpg>]
+[9 <./project/images/rpicam.jpg> <./project/images/bomotor.jpg>]
 <project/images/lipo.png, id=417, 803.0pt x 803.0pt>
 File: project/images/lipo.png Graphic file (type png)
 <use project/images/lipo.png>
@@ -1623,7 +1622,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./project/images/L298N.jpg>]
+[10 <./project/images/L298N.jpg>]
 <project/images/router.jpg, id=433, 813.0375pt x 468.75125pt>
 File: project/images/router.jpg Graphic file (type jpg)
 <use project/images/router.jpg>
@@ -1648,7 +1647,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./project/images/ultrasonic.jpg> <./project/images/lipo.png (PNG copy)>]
+[11 <./project/images/ultrasonic.jpg> <./project/images/lipo.png (PNG copy)>]
 <project/images/python.png, id=441, 359.84438pt x 319.94531pt>
 File: project/images/python.png Graphic file (type png)
 <use project/images/python.png>
@@ -1674,7 +1673,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./project/images/router.jpg> <./project/images/solar.jpg>]
+[12 <./project/images/router.jpg> <./project/images/solar.jpg>]
 Chapter 4.
 <project/images/project_flowchart.png, id=452, 979.66pt x 1786.675pt>
 File: project/images/project_flowchart.png Graphic file (type png)
@@ -1690,7 +1689,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./project/images/raspbian.png> <./project/images/python.png> <./project/im
+[13 <./project/images/raspbian.png> <./project/images/python.png> <./project/im
 ages/flask.png>]
 <project/images/bdweb.jpg, id=463, 866.23625pt x 494.84875pt>
 File: project/images/bdweb.jpg Graphic file (type jpg)
@@ -1710,7 +1709,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13
+[14
 
  <./project/images/project_flowchart.png>]
 Missing character: There is no â in font ptmr7t!
@@ -1758,7 +1757,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./project/images/bdweb.jpg>]
+[15 <./project/images/bdweb.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1767,7 +1766,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15]
+[16]
 <project/images/api.png, id=489, 2167.09625pt x 872.25874pt>
 File: project/images/api.png Graphic file (type png)
 <use project/images/api.png>
@@ -1782,7 +1781,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./project/images/Block_diagram.png>]
+[17 <./project/images/Block_diagram.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
 
@@ -1794,7 +1793,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17]
+[18]
 <project/images/Ultracircuit.png, id=501, 415.954pt x 343.14867pt>
 File: project/images/Ultracircuit.png Graphic file (type png)
 <use project/images/Ultracircuit.png>
@@ -1821,14 +1820,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./project/images/api.png>]
+[19 <./project/images/api.png>]
 Chapter 5.
 <project/images/Distance_Graph.png, id=511, 540.0175pt x 446.66875pt>
 File: project/images/Distance_Graph.png Graphic file (type png)
 <use project/images/Distance_Graph.png>
 Package pdftex.def Info: project/images/Distance_Graph.png  used on input line 
 9.
-(pdftex.def)             Requested size: 135.00404pt x 111.6669pt.
+(pdftex.def)             Requested size: 189.00896pt x 156.3364pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1837,7 +1836,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19 <./project/images/Ultracircuit.png> <./project/images/Solarbd.png>]
+[20 <./project/images/Ultracircuit.png> <./project/images/Solarbd.png>]
 
 LaTeX Warning: The counter will not be printed.
              The label is: \space  on input line 21.
@@ -1874,7 +1873,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20
+[21
 
  <./project/images/Distance_Graph.png>]
 Chapter 6.
@@ -1904,7 +1903,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21 <./project/images/ckt.png>]) (project/conclusion.tex
+[22 <./project/images/ckt.png>]) (project/conclusion.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1913,7 +1912,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22
+[23
 
  <./project/images/robo3.jpg>]
 Chapter 7.
@@ -1935,7 +1934,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23 <./project/images/video.png> <./project/images/sensorshow.png>])
+[24 <./project/images/video.png> <./project/images/sensorshow.png>])
 (project/ref.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1945,7 +1944,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24
+[25
 
 ]
 Underfull \hbox (badness 1902) in paragraph at lines 7--8
@@ -1997,7 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 \OT1/ptm/m/it/14.4 https://www.electronicshub.org/raspberry-pi-l298n-interface-
 tutorial-control-
@@ -2021,7 +2020,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26
+[27
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.IEEE\040
 Paper}) has been already used, duplicate ignored
@@ -2075,7 +2074,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{cite.IEEE\
+[28pdfTeX warning (ext4): destination with the same identifier (name{cite.IEEE\
 040Paper}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
@@ -2126,7 +2125,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28
+[29
 
 ]
 Appendix B.
@@ -2149,7 +2148,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
+[30]
 Appendix C.
 <project/images/robo1.jpg, id=618, 326.6604pt x 326.6604pt>
 File: project/images/robo1.jpg Graphic file (type jpg)
@@ -2164,7 +2163,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30
+[31
 
  <./project/images/gchart.png>]
 File: project/images/robo3.jpg Graphic file (type jpg)
@@ -2180,7 +2179,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31
+[32
 
  <./project/images/robo1.jpg>]
 Appendix D.
@@ -2193,7 +2192,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32] [33
+[33] [34
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
@@ -2211,7 +2210,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
  32660 strings out of 493305
- 643059 string characters out of 3145385
+ 643060 string characters out of 3145385
  671950 words of memory out of 3000000
  35401 multiletter control sequences out of 15000+200000
  464808 words of font info for 152 fonts, out of 3000000 for 9000
@@ -2225,7 +2224,7 @@ rs/HOME/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><D:/miktex2.
 9/fonts/type1/urw/times/utmb8a.pfb><D:/miktex2.9/fonts/type1/urw/times/utmbi8a.
 pfb><D:/miktex2.9/fonts/type1/urw/times/utmr8a.pfb><D:/miktex2.9/fonts/type1/ur
 w/times/utmr8a.pfb><D:/miktex2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group12_Report.pdf (41 pages, 4843425 bytes).
+Output written on Group12_Report.pdf (41 pages, 4843428 bytes).
 PDF statistics:
  737 PDF objects out of 1000 (max. 8388607)
  242 named destinations out of 1000 (max. 500000)

@@ -24,38 +24,23 @@
 \item Detail design of each module. 
 \item Integration and module test plan. 
 \item Availability status of required Hardware and Software components.
-\item 20\% Completion of Block/Sub module implementation.
+\item 20\% Completion of Project implementation.
 \end{enumerate}
 \newpage
     
-\textbf {\underline{3rd Review :  \textit{Project Progress Review}}}
+\textbf {\underline{3rd Review :  \textit{Project Progress Review} (27/5/2021)}}
 \begin{enumerate}
 \item Adherence to project plan.
 \item Completion of module interaction interface design.
-\item 50\% Module level implementation.
+\item 50\% Project implementation.
 \item Demonstration of completed modules using primitive interfaces 
 \end{enumerate}
 
-\textbf {\underline{4th Review :  \textit{Project Progress and Finishing plan Review}}}
-\begin{enumerate}
-\item 70\% Module level implementation 
-\item Presentation of completed test data as per test plan.
-\item Packaging plan.
-\item Final demonstration plan.
-\end{enumerate}
 
-\textbf {\underline{5th Review :  \textit{Module completion and Integration Review}}}
+\textbf {\underline{4th Review :  \textit{Final Demonstration Review} (17/7/2021)}}
 \begin{enumerate}
-\item 100\% Module implementation.
-\item Completion of Integration.
-\item Presentation of test data as per test plan.
-\item Adherences to project plan.
-\end{enumerate}
-
-\textbf {\underline{6th Review :  \textit{Demonstration Review }}}
-\begin{enumerate}
-\item Quality of packaged full demo presentation. 
-\item Integration test data as per test plan.
+\item 100\% Module implementation and Integration.
+\item Quality of packaged full demo presentation.
 \item Quality of documentation made across project.
 \item Group presentation / communication skill. 
 \end{enumerate}

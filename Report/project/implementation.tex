@@ -6,7 +6,7 @@ Video frames are captured by Raspberry Pi Camera which are then converted to JPE
 \subsection*{Ultrasonic Sensor Alerting}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.25]{Distance_Graph.png}
+\includegraphics[scale=0.35]{Distance_Graph.png}
 \caption{Ultrasonic Distance Graph}
 \end{figure}
 In Ultrasonic Sensor Alerting, we host an API i.e., host the sensor data acquisition code on a flask server. We make use of JavaScript to request sensor data from the API. Once the Ultrasonic Sensor readings are received, the data is then extracted and is in the JSON format. The data here being the distance.  We then make use of DOM manipulation to trigger alerts on the website application if the distance is less than 10cm.
