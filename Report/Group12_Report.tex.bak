@@ -150,7 +150,7 @@ bookmarks,  colorlinks=false]{hyperref} %for creating links in the pdf version a
 \cleardoublepage
 %\newpage
 \pagenumbering{arabic} %reset numbering to normal for the main content
-\setcounter{page}{1}
+\setcounter{page}{0}
 \input{project/introduction.tex} % adds the introduction page
 \input{project/literature-survey.tex} % adds the Literature Survey page
 \input{project/srs.tex}
